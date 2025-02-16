@@ -1,0 +1,324 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 20% 80%;
+  /* grid-template-rows: ; */
+}
+
+#sidebar {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 10% 90%;
+}
+
+#top {
+  display: grid;
+  grid-template-columns: 25% 75%;
+}
+
+#left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#left img {
+  width: 40px;
+  height: 40px;
+}
+
+#right {
+  display: grid;
+  grid-template-rows: 50% 50%;
+}
+
+#upper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: end;
+  padding-left: 10px;
+}
+
+#lower {
+  display: grid;
+  grid-template-columns: 30% 30% 40%;
+}
+
+#one {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+#two {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#three {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+#lower img {
+  width: 15px;
+  height: 15px;
+}
+
+#bot {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 4rem 2rem 2rem 2rem 2rem 2rem 2rem 2rem 2rem 2rem;
+  gap: 5px;
+}
+
+#bot h3 {
+  margin-left: 10px;
+}
+
+#bot img {
+  margin-left: 10px;
+  width: 15px;
+  height: 15px;
+}
+
+#bot p {
+  display: inline;
+  margin-left: 5px;
+}
+
+#nar1 {
+  display: flex;
+  align-items: center;
+  background-color: rgb(66, 116, 253);
+  color: white;
+}
+
+#nar1 img {
+  filter: invert(1);
+}
+
+#nar {
+  display: flex;
+  align-items: center;
+}
+
+#main {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 20vh 50vh 30vh;
+  background-color: rgb(230, 230, 230);
+}
+
+#cr1 {
+  display: grid;
+  grid-template-rows: 25% 75%;
+}
+
+#up {
+  display: flex;
+  align-items: center;
+}
+#up img {
+  margin-left: 15px;
+  width: 20px;
+  height: 20px;
+}
+
+#up h3 {
+  margin-left: 10px;
+  display: inline;
+}
+
+#down {
+  position: relative;
+  display: grid;
+  grid-template-columns: 23.5% 23.5% 23.5% 23.5%;
+  justify-content: space-evenly;
+}
+
+#kont1 {
+  background-color: red;
+}
+
+#d,
+#d1,
+#d2,
+#d3 {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 20px;
+}
+
+#d p,
+#d1 p,
+#d2 p,
+#d3 p {
+  font-size: 25px;
+}
+
+#kont1,
+#kont2,
+#kont3,
+#kont4 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 10px;
+  color: white;
+  border-radius: 3px;
+}
+
+#kont1 img,
+#kont2 img,
+#kont3 img,
+#kont4 img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 7px;
+  filter: invert(1);
+}
+
+#kont2 {
+  background-color: rgb(66, 116, 253);
+}
+
+#kont3 {
+  background-color: rgb(36, 185, 93);
+}
+
+#kont4 {
+  background-color: rgb(255, 123, 0);
+}
+
+#cr2 {
+  display: grid;
+  grid-template-columns: 35% 60%;
+  justify-content: space-between;
+}
+
+#le {
+  padding-left: 15px;
+}
+
+#header,
+#head {
+  margin-top: 10px;
+}
+
+#imgFot {
+  padding-top: 10px;
+}
+
+#imgFot img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+#ri {
+  display: grid;
+  grid-template-rows: 35px 35px 35px 35px 35px 35px 35px 35px;
+  padding-right: 15px;
+}
+
+.bar {
+  display: grid;
+  grid-template-columns: 10% 65% 25%;
+  border-radius: 5px;
+  gap: 2px;
+}
+
+.bar #d1 img {
+  width: 15px;
+  height: 15px;
+}
+
+#dd1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#dd1 img {
+  width: 15px;
+  height: 15px;
+}
+
+#b {
+  background-color: white;
+}
+
+#dd2 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 50px;
+}
+
+#dd3 {
+  display: flex;
+  align-items: center;
+}
+
+#h3 {
+  margin-left: 11px;
+  margin-bottom: 7px;
+}
+
+#para {
+  margin-left: 11px;
+  margin-bottom: 7px;
+}
+.scale {
+  display: grid;
+  width: 98%;
+  height: 30px;
+  margin-left: 11px;
+}
+
+#green {
+  grid-template-columns: 25%;
+  background-color: gray;
+  margin-bottom: 5px;
+}
+#percent25 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+  color: white;
+}
+
+#percent50 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: orange;
+}
+
+#orangee {
+  display: grid;
+  grid-template-columns: 50%;
+  margin-bottom: 5px;
+  background-color: gray;
+}
+
+#percent75 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  color: white;
+}
+#redd {
+  display: grid;
+  grid-template-columns: 75%;
+  background-color: gray;
+}
